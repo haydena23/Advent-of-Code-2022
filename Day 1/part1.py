@@ -32,10 +32,7 @@ split = [list(y) for x, y in itertools.groupby(cals, lambda z: z == delimiter) i
 # Cast all of the numbers in the subgroups from str to int
 split = [[int(y) for y in x] for x in split]
 
-# Calculate the sum for each of the subgroups
-sums = list(map(sum, split))
-
-# Print the value of the largest subgroup
-print(max(sums))
+# Calculate and print the max sum
+print(max(list(map(sum, split))))
 
 # Answer: 67027 calories
