@@ -1,5 +1,3 @@
-import itertools
-
 # Tony Hayden
 # Advent of Code 2022
 # 12/12/22
@@ -8,6 +6,7 @@ import itertools
 # Find the top three Elves carrying the most Calories. 
 # How many Calories are those Elves carrying in total?
 ###########################
+import itertools
 
 # Open the input file
 filename = 'input.txt'
