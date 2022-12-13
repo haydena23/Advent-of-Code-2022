@@ -4,6 +4,10 @@ import itertools
 # Advent of Code 2022
 # 12/12/22
 # Challenge: Day 1, Part 1
+###########################
+# Find the Elf carrying the most Calories. 
+# How many total Calories is that Elf carrying?
+###########################
 
 # Open the input file
 filename = 'input.txt'
